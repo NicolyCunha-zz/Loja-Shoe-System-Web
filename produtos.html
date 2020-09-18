@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <title>Produtos - Shoe System</title>
+</head>
+
+<body background="../img/produtos.jpg">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--<i class="fas fa-bars" onclick="openNav()"></i>-->
+    <a class="navbar-brand" href="#">
+      <img src="../img/box.ico" alt="Shoe System" class="logo-img">
+      Shoe System
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../produtos.html">Produtos <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../funcionarios.html">Funcionários</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../estoque.html">Estoque</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../venda.html">Venda</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <i class="fas fa-user" class="nav-link dropdown-toggle" href="#" id="navbarDropdown- produtos" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span class="dropdown-item" id="dropNome">Nome</span>
+            <span class="dropdown-item" id="dropCpf">CPF</span>
+            <a class="dropdown-item" href="../login.html">Sair</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="label-title">
+      <h1 class="text-center">Produtos</h1>
+    </div>
+    <form action="" method="post">
+      <div class="row">
+        <div class="col-md-3">
+          Código do Produto:
+          <div class="form-group-forms">
+            <input type="text" name="" id="txtCodProd" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-5">
+          Nome:
+          <div class="form-group-forms">
+            <input type="text" id="txtNome" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-2">
+          Quantidade:
+          <div class="form-group-forms">
+            <input type="number" name="" id="nudQuantidade" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-2">
+          Data de Cadastro:
+          <div class="form-group-forms">
+            <input type="date" name="txtDataCadastro" id="txtDataCadastro" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          Preço:
+          <div class="form-group-forms">
+            <input type="text" name="txtPreco" id="txtPreco" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-3">
+          Custo:
+          <div class="form-group-forms">
+            <input type="text" name="txtCusto" id="txtCusto" class="form-control">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          Marca:
+          <div class="form-group-forms">
+            <input type="text" name="txtMarca" id="txtMarca" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-2">
+          Data de Compra:
+          <div class="form-group-forms">
+            <input type="date" name="txtDataCompra" id="txtDataCompra" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          Fornecedor:
+          <div class="form-group-forms">
+            <input type="text" name="txtFornecedor" id="txtFornecedor" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-4">
+          Tipo de Estoque:
+          <div class="form-group-forms">
+            <input type="text" name="txtTipoEstoque" id="txtTipoEstoque" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-2">
+          Estoque:
+          <div class="form-group-forms">
+            <input type="text" name="txtEstoque" id="txtEstoque" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          Código de Barras:
+          <div class="form-group-forms">
+            <input type="text" name="txtCodBarras" id="txtCodBarras" class="form-control">
+          </div>
+        </div>
+        <div class="col-md-6">
+          Descrição:
+          <div class="form-group-forms">
+            <textarea name="txtDescrição" id="txtDescrição" cols="30" rows="2" class="form-control"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+          <button class="btn btn-success btn-forms">Limpar</button>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-success btn-forms">Consultar</button>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-success btn-forms">Incluir</button>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-success btn-forms">Alterar</button>
+        </div>
+        <div class="col-md-2">
+          <button class="btn btn-success btn-forms">Excluir</button>
+        </div>
+        <div class="col-md-1"></div> 
+      </div>
+    </form>
+  </div>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
