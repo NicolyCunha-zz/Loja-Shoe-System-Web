@@ -1,127 +1,141 @@
 /* Geral */
-body{
-    background-size: cover;
-    color: white
+body {
+  background-size: cover;
+  color: white;
 }
 
-.fa-user-circle{
-    font-size: 120px;       
-    margin-top: -65px;   
-    margin-bottom: 30px;
+.fa-user-circle {
+  font-size: 120px;
+  margin-top: -65px;
+  margin-bottom: 30px;
 }
 
-.main-section{
-    margin: 0 auto;
-    margin-top: 130px;
-    padding:0
+.main-section {
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 0;
 }
 
-.modal-content{
-    background-color: #413961;
-    opacity: .8;
-    padding: 0 18px;
-    border-radius: 7px;
+.modal-content {
+  background-color: #413961;
+  opacity: 0.8;
+  padding: 0 18px;
+  border-radius: 7px;
 }
 
 .form-group {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.form-group input{
-    height: 42px;
-    border-radius: 5px;
-    border: 0;
-    font-size: 18px;
+.form-group input {
+  height: 42px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
 }
 
-.form-input button{
-    width: 40%;
-    margin: 5px 0 20px;
+.form-input button {
+  width: 40%;
+  margin: 5px 0 20px;
 }
 
-.btn-success{
-    background-color:  rgb(77, 46, 95);
-    font-size: 19px;
-    border-radius: 5px;
-    padding: 7px 14px;
-    border: 1px solid #daf1ff;
+.btn-success {
+  background-color: rgb(77, 46, 95);
+  font-size: 19px;
+  border-radius: 5px;
+  padding: 7px 14px;
+  border: 1px solid #daf1ff;
 }
 
-.btn-success:hover{
-    background-color: rgb(255, 255, 122);
-    border: 1px solid #17181d;
-    color: #17181d
+.btn-success:hover {
+  background-color: rgb(255, 255, 122);
+  border: 1px solid #17181d;
+  color: #17181d;
 }
 
-.forgot{
-    padding: 5px 0 25px
+.forgot {
+  padding: 5px 0 25px;
 }
 
-.forgot:a{
-    color: #daf1ff
+.forgot:a {
+  color: #daf1ff;
 }
 
-.logo-img{
-    width: 45px;
-    padding-right: 5px;
+.logo-img {
+  width: 45px;
+  padding-right: 5px;
 }
 
 /* Dashboard*/
-.dropdown-menu{
-    left: -150px
+.dropdown-menu {
+  left: -150px;
 }
 
-.fa-user{
-    font-size: 25px;
-    color: black
+.fa-user {
+  font-size: 25px;
+  color: black;
 }
 
-.fa-bars{
-    font-size: 22px;
-    padding: 0 10px 0 0
+.fa-bars {
+  font-size: 22px;
+  padding: 0 10px 0 0;
 }
 
-#nav-sidebar{
-    background-color:  rgb(77, 46, 95);
+#nav-sidebar {
+  background-color: rgb(77, 46, 95);
 }
 
-.container-dashboard{
-    margin-top: 10%
+.container-dashboard {
+  margin-top: 10%;
 }
 
-/* produtos */
+/* forms */
 
-.label-title{
-    padding-top: 15px;
-    color: white;
+.label-title {
+  padding-top: 15px;
+  color: white;
 }
 
 .form-group-forms {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-.form-group-forms input{
-    height: 30px;
-    border-radius: 5px;
-    border: 0;
-    font-size: 15px;
+.form-group-forms input {
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 15px;
 }
 
-.form-group-forms select{
-    height: 30px;
-    border-radius: 5px;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 3px
+.form-group-forms select {
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 3px;
 }
 
-.btn-forms{    
-        width: 100px;
-        margin: 5px 0 20px;
-        padding: 5px 5px 5px 5px;
-        font-size: 16px
+.btn-forms {
+  width: 100px;
+  margin: 5px 0 20px;
+  padding: 5px 5px 5px 5px;
+  font-size: 16px;
 }
 
-fieldset{
-    color:c0c0c0
+fieldset {
+  color: c0c0c0;
+}
+
+.thead-purple {
+    background-color: rgb(83, 39, 85);
+}
+
+.ico-search{
+    height: 35px;
+    margin-top: 20px
+}
+
+.table{
+    margin-top:50px;
+    margin-bottom: 30px
 }
